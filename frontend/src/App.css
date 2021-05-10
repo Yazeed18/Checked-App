@@ -1,0 +1,10 @@
+.App {
+  background-color: rgb(83, 227, 240);
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
