@@ -8,13 +8,17 @@ Lastly, Axios was utilised to help facilitate ease in requesting Data from the A
 Below highlights the CRUD operations of the Checked App.
 
 Create: 
+
 ![Todo_Create](https://user-images.githubusercontent.com/45414646/130195712-d679d368-29c5-41f0-a4e3-6df237417698.gif)
 
 Read:
+
 ![Todo_Read](https://user-images.githubusercontent.com/45414646/130195730-13067891-43ee-44f5-8382-b3c5d994f36e.gif)
 
 Update:
+
 ![Todo_Update](https://user-images.githubusercontent.com/45414646/130195732-c2ebeea9-267b-4981-91f9-cea35be7e267.gif)
 
 Delete:
+
 ![Todo_Delete](https://user-images.githubusercontent.com/45414646/130195729-7c221c2a-e6a2-42ee-8542-e051621ccbaa.gif)
