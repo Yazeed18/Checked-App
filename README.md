@@ -1,9 +1,12 @@
 Simple to do list app that allows users to create, read, update and then delete items on their list. Hence, "Checked" to signify finishing off their to do list since there is no better feeling than finishing your tasks you planned. 
 
-This app was made using a django backend to create the Todo Model. This model consists of 3 main headings to be used when making each of the tasks. They are Title, Description and a completed boolean (i.e True or False). 
-The REST framework was then set up along with CORS to manage the headers to be used when setting up the tasks. This also brings about CRUD operations that can be done using the Todo model in the backend. 
-After the backend and the API are all set, ReactJS was then used to create the frontend along with bootstrap for designing so that there is a user friendly way to making the tasks and items on the App. 
-Lastly, Axios was utilised to help facilitate ease in requesting Data from the API, returning data from the API and performing actions using the Data in the React frontend.
+-This app was made using a django backend to create the Todo Model. This model consists of 3 main headings to be used when making each of the tasks. They are Title, Description and a completed boolean (i.e True or False).
+
+-The REST framework was then set up along with CORS to manage the headers to be used when setting up the tasks. This also brings about CRUD operations that can be done using the Todo model in the backend. 
+
+-After the backend and the API are all set, ReactJS was then used to create the frontend along with bootstrap for designing so that there is a user friendly way to making the tasks and items on the App. 
+
+-Lastly, Axios was utilised to help facilitate ease in requesting Data from the API, returning data from the API and performing actions using the Data in the React frontend.
 
 Below highlights the CRUD operations of the Checked App.
 
