@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+Simple to do list app that allows users to create, read, update and then delete items on their list. Hence, "Checked" to signify finishing off their to do list since there is no better feeling than finishing your tasks you planned. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was made using a django backend to create the Todo Model. This model consists of 3 main headings to be used when making each of the tasks. They are Title, Description and a completed boolean (i.e True or False). 
+The REST framework was then set up along with CORS to manage the headers to be used when setting up the tasks. This also brings about CRUD operations that can be done using the Todo model in the backend. 
+After the backend and the API are all set, ReactJS was then used to create the frontend along with bootstrap for designing so that there is a user friendly way to making the tasks and items on the App. 
+Lastly, Axios was utilised to help facilitate ease in requesting Data from the API, returning data from the API and performing actions using the Data in the React frontend.
 
-## Available Scripts
+Below highlights the CRUD operations of the Checked App.
 
-In the project directory, you can run:
+Create: 
+![Todo_Create](https://user-images.githubusercontent.com/45414646/130195712-d679d368-29c5-41f0-a4e3-6df237417698.gif)
 
-### `npm start`
+Read:
+![Todo_Read](https://user-images.githubusercontent.com/45414646/130195730-13067891-43ee-44f5-8382-b3c5d994f36e.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Update:
+![Todo_Update](https://user-images.githubusercontent.com/45414646/130195732-c2ebeea9-267b-4981-91f9-cea35be7e267.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Delete:
+![Todo_Delete](https://user-images.githubusercontent.com/45414646/130195729-7c221c2a-e6a2-42ee-8542-e051621ccbaa.gif)
