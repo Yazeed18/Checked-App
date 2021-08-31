@@ -4,7 +4,7 @@ Simple to do list app that allows users to create, read, update and then delete 
 
 -The REST framework was then set up along with CORS to manage the headers to be used when setting up the tasks. This also brings about CRUD operations that can be done using the Todo model in the backend. 
 
--After the backend and the API are all set, ReactJS was then used to create the frontend along with bootstrap for designing so that there is a user friendly way to making the tasks and items on the App 
+-After the backend and the API are all set, ReactJS was then used to create the frontend along with bootstrap for designing so that there is a user friendly way to making the tasks and items on the App.
 
 -Lastly, Axios was utilised to help facilitate ease in requesting Data from the API, returning data from the API and performing actions using the Data in the React frontend.
 
